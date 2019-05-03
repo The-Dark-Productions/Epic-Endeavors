@@ -3,6 +3,10 @@ num.sort(reverse=True)
 
 
 def divide(dividend, divisor_index=0, weights={k: 0 for k in num}):
+    """
+    The function returns False when it encounters a combination of weights which is
+    worse than previously acquired results.
+    """
     global global_min_count
     if sum(weights.values()) > global_min_count:
         return False
