@@ -39,7 +39,7 @@ def divide(dividend, divisor_index=0, weights={k: 0 for k in num}):
     return best_weight
 
 
-number = 200
+number = 198
 global_min_count = number
 weights = divide(number)
 print("\nCost: {}\n".format(sum(weights.values())))
