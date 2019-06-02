@@ -46,7 +46,7 @@ def calculate(selected_list):                                       # Calculatin
     selected_list.append(total)                                     # Appending total(outcome) at the end of list.
 
 
-number = 20                                                         # Play with input
+number = 25                                                         # Play with input
 min_cost = repr(get_result())
 print("\nMinimum Cost : " + min_cost)
 print("Weights :")
